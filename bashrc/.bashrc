@@ -102,12 +102,6 @@ alias rm="rm -v"
 alias rpm="rpm -ivh"
 alias df="df -h"
 
-# some aliases of Python3
-alias python='ipython3'
-alias idle='idle-python3.4'
-alias ipython='ipython3'
-alias sqlite='sqlite3'
-alias pip='pip3'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
