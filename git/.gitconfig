@@ -3,3 +3,7 @@
 	name = Yang Chi
 [alias]
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+[credential]
+    helper = store --file /mnt/thumbdrive/.git-credentials
+    helper = cache --timeout 900
